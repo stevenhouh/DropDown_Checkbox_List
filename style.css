@@ -1,0 +1,56 @@
+.clear {
+    clear: both;
+}
+
+.global {
+    font-family: sans-serif;
+    width: 140px;
+    margin: 50px auto;
+}
+
+.top-menu {
+    height: 25px;
+    line-height: 25px;
+    cursor: pointer;
+    /*outline: 1px solid red;*/
+}
+
+.text-arrow {
+    color: #353535;
+    font-size: 20px;
+    float: left;
+}
+
+.icon-arrow {
+    background-image: url(img/arrow_down.png);
+    margin-top: 4px;
+    width: 16px;
+    height: 16px;
+    float: right;
+}
+
+.ul-wrapper {
+    width: 200px;
+    display: none;
+    /*outline: 1px solid darkcyan;*/
+}
+
+.ul-wrapper ul li {
+    padding: 10px;
+}
+
+.ul-wrapper ul li label {
+    cursor: pointer;
+    padding-left: 5px;
+    float: left;
+    display: block;
+    margin-top: 4px;
+}
+
+.ul-wrapper ul li input {
+    cursor: pointer;
+    float: left;
+    display: block;
+    width: 17px;
+    height: 17px;
+}
