@@ -16,9 +16,10 @@
 }
 
 .text-arrow {
+    margin-right: 20px;
     color: #353535;
     font-size: 20px;
-    float: left;
+    float: right;
 }
 
 .icon-arrow {
@@ -26,7 +27,8 @@
     margin-top: 4px;
     width: 16px;
     height: 16px;
-    float: right;
+    float: left;
+    margin-left: 13px;
 }
 
 .ul-wrapper {
@@ -53,4 +55,28 @@
     display: block;
     width: 17px;
     height: 17px;
+}
+
+.add_item {
+    display: block;
+    cursor: pointer;
+    background-color: #b1f7b6;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 15px;
+}
+
+.hide_item {
+    display: block;
+    cursor: pointer;
+    background-color: #F67D5C;
+    width: 120px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 15px;
 }
